@@ -1,0 +1,53 @@
+:root{
+    --main-color: rgb(22, 22, 250);
+    --shadow-main-color: rgb(68, 71, 203);
+    --heading-color: rgb(231, 231, 237);
+    --sub-heading-color: rgb(195, 195, 201);
+    --icon-color: rgb(152, 131, 227);
+}
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 20px);
+    background-color: var(--main-color);
+    position: sticky;
+    top: 50px;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+.sidebar-wrapper{
+    padding: 20px 0 20px 20px;
+}
+.sidebar-menu {
+    margin-bottom: 10px;
+}
+.sidebar-title{
+    font-size: 16px;
+    color: var(--heading-color);
+    font-family: 'PT Sans';
+    letter-spacing: 1px;
+}
+
+.sidebar-items{
+    list-style: none;
+    padding: 5px;
+}
+.sidebar-item{
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: var(--sub-heading-color);
+}
+
+.sidebar-icon{
+    margin-right: 8px;
+    font-size: 20px !important;
+}
+
+.active,
+.sidebar-item:hover {
+    background-color: var(--heading-color);
+    color: var(--shadow-main-color);
+}

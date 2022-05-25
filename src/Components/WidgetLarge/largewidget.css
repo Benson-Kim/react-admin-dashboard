@@ -1,0 +1,32 @@
+.large-widget {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.large-widget-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.large-widget-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.large-widget-btn{
+    width: 80px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(15, 15, 16); 
+}
+.large-widget-btn.Approved{
+    background-color: #03f75c;
+}
+.large-widget-btn.Pending{
+    background-color: #0391f7;
+}
+.large-widget-btn.Declined{
+    background-color: #f70330;
+}

@@ -1,0 +1,54 @@
+:root {
+    --main-color: rgb(22, 22, 250);
+    --shadow-main-color: rgb(68, 71, 203);
+    --heading-color: rgb(231, 231, 237);
+    --sub-heading-color: rgb(195, 195, 201);
+    --icon-color: rgb(152, 131, 227);
+    --red-color: rgb(239, 76, 31);
+    --box-shadow-cat: rgba(3, 145, 247, 0.35);
+}
+
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-item{
+    padding: 15px;
+    flex: 1;
+    margin: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow-cat) 0px -50px 36px -28px inset;
+}
+.featured-title{
+    font-size: 20px;
+}
+.featured-container{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featured-money{
+    font-size: 26px;
+    font-weight: 600;
+}
+.featured-money-rate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featured-icon{
+    font-size: 15px;
+    margin-left: 5px;
+    color: var(--shadow-main-color) ;
+}
+.featured-icon.negative{
+    color: var(--red-color);
+}
+
+.featured-sub{
+    font-size: 15px;
+    color: var(--main-color);
+}
