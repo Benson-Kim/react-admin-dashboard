@@ -1,4 +1,4 @@
-export const userData = [
+export const chartData = [
     {
         name: 'Jan',
         "Active User": 4000,

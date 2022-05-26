@@ -6,8 +6,8 @@ import {
 
 import './app.css';
 import Navbar from './Components/Navbar/Navbar';
-import Sideba from './Components/Sidebar/Sideba';
-import Homie from "./Pages/Home/Homie";
+import Sidebar from './Components/Sidebar/Sidebar';
+import Home from "./Pages/Home/Home";
 import Users from "./Pages/Users/Users";
 
 
@@ -16,10 +16,10 @@ function App() {
     <div>
     <Navbar />
       <div className="container">
-        <Sideba />
+        <Sidebar />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Homie />} />
+            <Route path="/" element={<Home />} />
             <Route path="users" element={<Users />} />
           </Routes>
         </BrowserRouter>

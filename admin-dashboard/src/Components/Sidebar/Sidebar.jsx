@@ -14,7 +14,7 @@ import {
 
 } from '@mui/icons-material'
 
-export default function Sideba() {
+export default function Sidebar() {
     return (
         <div className='sidebar'>
             <div className="sidebar-wrapper">
